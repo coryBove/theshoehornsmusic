@@ -9,29 +9,38 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+
+        <style>
+            .tsh-bg {
+                background-color: #4a525a;
+                color: #fff !important;
+            }
+            .tsh-yellow {
+                color: #7f591f !important;
+            }
+
+        </style>
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
             <div class="container px-4">
-                <a class="navbar-brand" href="#page-top">The Shoehorns</a>
+                <a class="navbar-brand tsh-yellow" href="#page-top">The Shoehorns</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#shows">Shows</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#clips">Clips</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#links">Links</a></li>
+                        <li class="nav-item"><a class="nav-link tsh-yellow" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link tsh-yellow" href="#shows">Shows</a></li>
+                        <li class="nav-item"><a class="nav-link tsh-yellow" href="#clips">Clips</a></li>
+                        <li class="nav-item"><a class="nav-link tsh-yellow" href="#links">Links</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Header-->
-        <header class="bg-primary bg-gradient text-white">
+        <header class="tsh-bg text-white">            
             <div class="container px-4 text-center">
-                <h1 class="fw-bolder">The Shoehorns</h1>
-                <p class="lead">An awesome band from Northeast Ohio</p>
-                <a class="btn btn-lg btn-light" href="#about">About</a>
+                <img class="img-fluid" src="assets/TheShoehornsLogo.png" />            
             </div>
         </header>
         <!-- About section-->
@@ -52,7 +61,7 @@
             </div>
         </section>
         <!-- Shows section-->
-        <section class="bg-light" id="shows">
+        <section class="tsh-bg" id="shows">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
@@ -86,19 +95,19 @@
             </div>
         </section>
         <!-- Links section-->
-        <section class="bg-light" id="links">
+        <section class="tsh-bg" id="links">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
                         <h2>Links</h2>
-                        <p class="lead">Check us out on <a href="https://www.facebook.com/thelowsiders/">Facebook</a>!</p>
+                        <a href="https://www.facebook.com/thelowsiders/"><img class="img-thumbnail" style="width: 10%;" src="assets/facebook.png"></a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; The Shoehorns 2021 - 2022</p></div>
+            <div class="container px-4"><p class="m-0 text-center tsh-yellow">Copyright &copy; The Shoehorns 2021 - 2022</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
