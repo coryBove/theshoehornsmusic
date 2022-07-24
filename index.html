@@ -37,8 +37,10 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link tsh-yellow" href="#news">News</a></li>
                         <li class="nav-item"><a class="nav-link tsh-yellow" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link tsh-yellow" href="#shows">Shows</a></li>
+                        <li class="nav-item"><a class="nav-link tsh-yellow" href="#videos">Videos</a></li>
                         <li class="nav-item"><a class="nav-link tsh-yellow" href="#clips">Clips</a></li>
                         <li class="nav-item"><a class="nav-link tsh-yellow" href="#contact">Contact</a></li>
                         <li class="nav-item"><a class="nav-link tsh-yellow" href="#links">Links</a></li>
@@ -52,8 +54,23 @@
                 <img class="img-fluid" src="assets/tshirtdesign.jpg" />            
             </div>
         </header>
+        <!-- News section-->
+        <section id="news">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>News</h2>
+                        <p class="lead">The Shoehorns have some great news!</p>
+                        <ul>
+                            <li>We're booking a lot of shows</li>
+                            <li>We're actively recording</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- About section-->
-        <section id="about">
+        <section class="tsh-bg" id="about">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
@@ -70,7 +87,7 @@
             </div>
         </section>
         <!-- Shows section-->
-        <section class="tsh-bg" id="shows">
+        <section id="shows">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
@@ -103,6 +120,21 @@
                 </div>
             </div>
         </section>
+        <!-- Videos section-->
+        <section class="tsh-bg" id="videos">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Videos</h2>
+                        <p class="lead">Coming Soon!</p>
+                        <!-- <video width="320" height="240" controls>
+                            <source src="videos/theshoehornslive.3gp" type="video/3gp">
+                            Your browser does not support the audio tag.
+                        </video> -->
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Clips section-->
         <section id="clips">
             <div class="container px-4">
@@ -112,6 +144,11 @@
                         <p class="lead">Elephants</p>
                         <audio controls>
                             <source src="clips/ElephantsClip.mp3" type="audio/mp3">
+                            Your browser does not support the audio tag.
+                        </audio>
+                        <p class="lead">Front Lines</p>
+                        <audio controls>
+                            <source src="clips/FrontLinesClip.mp3" type="audio/mp3">
                             Your browser does not support the audio tag.
                         </audio>
                     </div>
