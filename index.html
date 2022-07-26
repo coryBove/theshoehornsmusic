@@ -1,191 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Lo-fi grooves from Northeast Ohio." />
-        <meta name="author" content="The Shoehorns" />
-        <meta property="og:title" content="The Shoehorns" />
-        <meta property="og:description" content="Lo-fi grooves from Northeast Ohio." />
-        <meta property="og:image:url" content="https://raw.githubusercontent.com/coryBove/theshoehornsmusic/master/assets/TheShoehornsLogo.png" />
-        <title>The Shoehorns</title>
-        <!-- favicon -->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
-        <link rel="manifest" href="assets/site.webmanifest">
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
 
-        <style>
-            .tsh-bg {
-                background-color: #4a525a;
-                color: #fff !important;
-            }
-            .tsh-yellow {
-                color: #7f591f !important;
-            }
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Lo-fi grooves from Northeast Ohio." />
+    <meta name="author" content="The Shoehorns" />
+    <meta property="og:title" content="The Shoehorns" />
+    <meta property="og:description" content="Lo-fi grooves from Northeast Ohio." />
+    <meta property="og:image:url"
+        content="https://raw.githubusercontent.com/coryBove/theshoehornsmusic/master/assets/TheShoehornsLogo.png" />
+    <title>The Shoehorns</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="assets/site.webmanifest">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
 
-        </style>
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-            <div class="container px-4">
-                <a class="navbar-brand tsh-yellow" href="#page-top">THE SHOEHORNS</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link tsh-yellow" href="#news">News</a></li>
-                        <li class="nav-item"><a class="nav-link tsh-yellow" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link tsh-yellow" href="#shows">Shows</a></li>
-                        <li class="nav-item"><a class="nav-link tsh-yellow" href="#videos">Videos</a></li>
-                        <li class="nav-item"><a class="nav-link tsh-yellow" href="#clips">Clips</a></li>
-                        <li class="nav-item"><a class="nav-link tsh-yellow" href="#contact">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link tsh-yellow" href="#links">Links</a></li>
+    <style>
+        .tsh-bg {
+            background-color: #4a525a;
+            color: #fff !important;
+        }
+
+        .tsh-yellow {
+            color: #7f591f !important;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            /* 16:9 */
+            height: 0;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <div class="container px-4">
+            <a class="navbar-brand tsh-yellow" href="#page-top">THE SHOEHORNS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link tsh-yellow" href="#news">News</a></li>
+                    <li class="nav-item"><a class="nav-link tsh-yellow" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link tsh-yellow" href="#shows">Shows</a></li>
+                    <li class="nav-item"><a class="nav-link tsh-yellow" href="#videos">Videos</a></li>
+                    <li class="nav-item"><a class="nav-link tsh-yellow" href="#clips">Clips</a></li>
+                    <li class="nav-item"><a class="nav-link tsh-yellow" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link tsh-yellow" href="#links">Links</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header-->
+    <header class="tsh-bg text-white">
+        <div class="container px-4 text-center">
+            <img class="img-fluid" src="assets/tshirtdesign.jpg" />
+        </div>
+    </header>
+    <!-- News section-->
+    <section id="news">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>News</h2>
+                    <p class="lead">The Shoehorns have some great news!</p>
+                    <ul>
+                        <li>The Shoehorns debut single/b-side release, Elephants and Front lines will be available on
+                            all streaming platforms on July 28th!</li>
+                        <li>The Shoehorns are currently recording for a full length album for 2023 release!</li>
+                        <li>Merchandise available soon! Shirts, hats, stickers, flamethrowers.</li>
                     </ul>
                 </div>
             </div>
-        </nav>
-        <!-- Header-->
-        <header class="tsh-bg text-white">            
-            <div class="container px-4 text-center">
-                <img class="img-fluid" src="assets/tshirtdesign.jpg" />            
+        </div>
+    </section>
+    <!-- About section-->
+    <section class="tsh-bg" id="about">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>About Us</h2>
+                    <p class="lead">The Shoehorns are a lo-fi blues, folk outfit from Northeast Ohio.</p>
+                    <ul>
+                        <li>Music Venues</li>
+                        <li>Bars / Restaurants / Coffee Shops</li>
+                        <li>Parties / Weddings / Birthdays / Events</li>
+                        <li>Baptisms / Bar Mitzvahs / Bachelorette Parties</li>
+                    </ul>
+                </div>
             </div>
-        </header>
-        <!-- News section-->
-        <section id="news">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>News</h2>
-                        <p class="lead">The Shoehorns have some great news!</p>
-                        <ul>
-                            <li>The Shoehorns debut single/b-side release, Elephants and Front lines will be available on all streaming platforms on July 28th!</li>
-                            <li>The Shoehorns are currently recording for a full length album for 2023 release!</li>
-                            <li>Merchandise available soon! Shirts, hats, stickers, flamethrowers.</li>
-                        </ul>
+        </div>
+    </section>
+    <!-- Shows section-->
+    <section id="shows">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Upcoming Shows</h2>
+                    <ul>
+                        <li>July 28 - Musica, Akron w/ Tyler Ray on Pedal Steel</li>
+                        <li>July 30 - Kent Gazebo, Kent (acoustic show)</li>
+                        <li>August 6 - The Burnt Pickle, Kent</li>
+                        <li>August 19 - Barmacy, Akron</li>
+                        <li>August 20 - PorchRokr, Akron</li>
+                        <li>August 21 - The Grog Shop, Cleveland</li>
+                        <li>September 2 - Jilly's, Akron</li>
+                        <li>September 24 - McAlpine Meadery, Beach City</li>
+                        <li>October 28 - Devil's Night Costume Bash, TBD</li>
+                    </ul>
+                    <h2>Past shows</h2>
+                    <ul>
+                        <li>Barmacy</li>
+                        <li>Annabell's</li>
+                        <li>Coda</li>
+                        <li>The Rialto Theatre</li>
+                        <li>The Outpost</li>
+                        <li>Barro Di Mario</li>
+                        <li>Buzzbin</li>
+                        <li>Tiki Underground</li>
+                        <li>George's Lounge</li>
+                        <li>5 O'Clock Lounge</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Videos section-->
+    <section class="tsh-bg" id="videos">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Videos</h2>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tpc_-HpPDgM"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- About section-->
-        <section class="tsh-bg" id="about">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>About Us</h2>
-                        <p class="lead">The Shoehorns are a lo-fi blues, folk outfit from Northeast Ohio.</p>
-                        <ul>
-                            <li>Music Venues</li>
-                            <li>Bars / Restaurants / Coffee Shops</li>                            
-                            <li>Parties / Weddings / Birthdays / Events</li>
-                            <li>Baptisms / Bar Mitzvahs / Bachelorette Parties</li>
-                        </ul>
-                    </div>
+        </div>
+    </section>
+    <!-- Clips section-->
+    <section id="clips">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Clips</h2>
+                    <p class="lead">Elephants</p>
+                    <audio controls>
+                        <source src="clips/ElephantsClip.mp3" type="audio/mp3">
+                        Your browser does not support the audio tag.
+                    </audio>
+                    <p class="lead">Front Lines</p>
+                    <audio controls>
+                        <source src="clips/FrontLinesClip.mp3" type="audio/mp3">
+                        Your browser does not support the audio tag.
+                    </audio>
                 </div>
             </div>
-        </section>
-        <!-- Shows section-->
-        <section id="shows">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>Upcoming Shows</h2>
-                        <ul>
-                            <li>July 28 - Musica, Akron w/ Tyler Ray on Pedal Steel</li>
-                            <li>July 30 - Kent Gazebo, Kent (acoustic show)</li>
-                            <li>August 6 - The Burnt Pickle, Kent</li>
-                            <li>August 19 - Barmacy, Akron</li>
-                            <li>August 20 - PorchRokr, Akron</li>
-                            <li>August 21 - The Grog Shop, Cleveland</li>
-                            <li>September 2 - Jilly's, Akron</li>
-                            <li>September 24 - McAlpine Meadery, Beach City</li>
-                            <li>October 28 - Devil's Night Costume Bash, TBD</li>
-                        </ul>                        
-                        <h2>Past shows</h2>
-                        <ul>
-                            <li>Barmacy</li>
-                            <li>Annabell's</li>
-                            <li>Coda</li>
-                            <li>The Rialto Theatre</li>
-                            <li>The Outpost</li>
-                            <li>Barro Di Mario</li>
-                            <li>Buzzbin</li>
-                            <li>Tiki Underground</li>
-                            <li>George's Lounge</li>
-                            <li>5 O'Clock Lounge</li>
-                        </ul>
-                    </div>
+        </div>
+    </section>
+    <!-- Contact section-->
+    <section class="tsh-bg" id="contact">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Contact</h2>
+                    <p class="lead">For booking and general inquiries, please contact us at: <a style="color: #e8a31e;"
+                            href="mailto:theshoehornsmusic@gmail.com">theshoehornsmusic@gmail.com</a></p>
                 </div>
             </div>
-        </section>
-        <!-- Videos section-->
-        <section class="tsh-bg" id="videos">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>Videos</h2>
-                        <p class="lead">Coming Soon!</p>
-                        <!-- <video width="320" height="240" controls>
-                            <source src="videos/theshoehornslive.3gp" type="video/3gp">
-                            Your browser does not support the audio tag.
-                        </video> -->
-                    </div>
+        </div>
+    </section>
+    <!-- Links section-->
+    <section id="links">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Links</h2>
+                    <a href="https://www.facebook.com/theshoehornsmusic/"><img class="img-thumbnail" style="width: 10%;"
+                            src="assets/facebook.png"></a>
+                    <a href="https://www.instagram.com/theshoehorns/"><img class="img-thumbnail" style="width: 10%;"
+                            src="assets/instagram.png"></a>
+                    <a href="https://www.youtube.com/channel/UC-edw0rpiwa2xWV814BBiSg"><img class="img-thumbnail"
+                            style="width: 10%;" src="assets/youtube.png"></a>
+                    <a href="https://theshoehorns1.bandcamp.com/"><img class="img-thumbnail" style="width: 10%;"
+                            src="assets/bandcamp.png"></a>
+
                 </div>
             </div>
-        </section>
-        <!-- Clips section-->
-        <section id="clips">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>Clips</h2>
-                        <p class="lead">Elephants</p>
-                        <audio controls>
-                            <source src="clips/ElephantsClip.mp3" type="audio/mp3">
-                            Your browser does not support the audio tag.
-                        </audio>
-                        <p class="lead">Front Lines</p>
-                        <audio controls>
-                            <source src="clips/FrontLinesClip.mp3" type="audio/mp3">
-                            Your browser does not support the audio tag.
-                        </audio>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Contact section-->
-        <section class="tsh-bg" id="contact">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>Contact</h2>
-                        <p class="lead">For booking and general inquiries, please contact us at: <a style="color: #e8a31e;" href="mailto:theshoehornsmusic@gmail.com">theshoehornsmusic@gmail.com</a></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Links section-->
-        <section id="links">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>Links</h2>
-                        <a href="https://www.facebook.com/theshoehornsmusic/"><img class="img-thumbnail" style="width: 10%;" src="assets/facebook.png"></a>
-                        <a href="https://www.instagram.com/theshoehorns/"><img class="img-thumbnail" style="width: 10%;" src="assets/instagram.png"></a>                        
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container px-4"><p class="m-0 text-center tsh-yellow">Copyright &copy; The Shoehorns 2021 - 2022</p></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container px-4">
+            <p class="m-0 text-center tsh-yellow">Copyright &copy; The Shoehorns 2021 - 2022</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
 </html>
